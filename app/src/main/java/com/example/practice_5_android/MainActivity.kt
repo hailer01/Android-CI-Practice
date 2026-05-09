@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Practice_5_androidTheme {
-                Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
+                Scaffol( modifier = Modifier.fillMaxSize() ) { innerPadding ->
                     Greeting
                         name = "Дяченко Віталій",
                         modifier = Modifier.padding(innerPadding)
